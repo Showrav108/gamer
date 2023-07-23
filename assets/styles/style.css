@@ -1,4 +1,148 @@
-.gamer{
+/* shared styles */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+    /* header styles */
+nav{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+.logo-image{
+    padding-top: 15px;    
+}
+.logo-text{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: large;
+}
+.g{
+    color:#FF42A5;
+}
+.navbar{
+    padding: 30px;
+    /* padding-left: 400px; */
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-icon{
+    padding: 5px;
+    background-color: #E7E6E9;
+    border-radius: 5px;
+}
+/* banner styles */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-text{
+    padding-top: 130px;
+}
+.banner-text h2{
+    color: #0d0229;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text h1{
+    /* text-align: center; */
+    color: #C051D2;
+    font-size: 70px;
+    font-weight: 550;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-text p{
+    color: #736C80;
+}
+.banner-text p i{
+    padding-right:10px;
+    color:#FF42A5;
+}
+.btn-primary{
+    background-color: #FF42A5;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 8px 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.btn-secondary{
+    background-color: #4EC5E7;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 8px 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+    /* gamer styles */
+.gamer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.gamer-image{
+    padding-left: 30px;
+    max-width:fit-content ;
+}
+.gamer-text{
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.gamer-text h2{
+    color: #C051D2;
+    font-size: 30px;
+    font-weight: 600;
+}
+.gamer-text p{
+    color: #736C80;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: #FF42A5;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 8px 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.gamer-text h5{
+    color: #736C80;
+    font-size: 15px;
+}
+.gamer-text h3{
+    color: #686277;
+    font-size: 20px;
+}
+/* games styles */
+.games-text{
+    text-align: center;
+}
+.games-text h2{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+}
+.funny-text{
+    color: #C051D2;
+}
+.games-text p{
+    color: #736C80;
+    font-size: 14px;
+}
+.games-card{
+    display: grid;
 }
