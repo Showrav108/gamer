@@ -11,12 +11,12 @@ nav{
     display: flex;
 }
 .logo-image{
-    padding-top: 15px;    
+    padding-top: 25px;    
 }
 .logo-text{
     padding-left: 10px;
     font-weight: 700;
-    font-size: large;
+    font-size: 22px;
 }
 .g{
     color:#FF42A5;
@@ -41,6 +41,7 @@ nav{
 }
 .banner-text{
     padding-top: 130px;
+    background-image: url("../images/Group-14.png");
 }
 .banner-text h2{
     color: #0d0229;
@@ -106,7 +107,9 @@ nav{
 }
 .gamer-text p{
     color: #736C80;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
 }
 .btn-primary{
     background-color: #FF42A5;
@@ -144,5 +147,197 @@ nav{
     font-size: 14px;
 }
 .games-card{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 50px;
 }
+.card img{
+    width:250px;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+.card3 img{
+    width:250px;
+    padding: 0px 20px;
+}
+.watch-now{
+    position: relative;
+    bottom: 250px;
+}
+.watch-now i{
+    color: #FFF;
+    font-size: 40px;
+}
+.watch-now p{
+    color:#FF42A5;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+.card-text{
+    margin-left: 25px;
+    text-align: start;
+    width:240px;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 30px;
+}
+/* play styles */
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+    /* border: 1px solid red;   */
+}
+.play-text{
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-left: 130px;
+}
+.play-text h2{
+    color: #0B0223;
+    text-align:right;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px; 
+}
+.play-instant{
+    color: #FF42A5;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.play-text p{
+    color: #736C80;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px; /* 166.667% */
+}
+.play-image img{
+    height:510px;
+    width: 480px;
+}
+.play-image2{
+    /* border: 3px solid #FFF; */
+    position: relative;
+    bottom: 220px;
+    right: 130px;
+}
+.play-image2 img{
+    height: 280px;
+    width: 250px;
+}
+/* online-games style */
+.online-games-container{
+    margin: 40px 50px;
+}
+.online-games-content{
+    display: flex;
+    justify-content: space-around;
+}
+.online-games-content1{
+    display: flex;
+    justify-content: space-around;
+}
+.online-games{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.online-games img{
+    width: 50px;
+    height: 50px;
+}
+.online-games p{
+    color: #0B0223;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.online-games:hover {
+    border:1px solid #FF42A5 ;
+    border-radius: 30px;
+}
+.online-games:hover p{
+    color: #FF42A5;
+}
+/* footer styles */
+.footer-section{
+    background-color: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-image{
+    padding-top: 25px;
+}
+.footer-image img{
+    height: 28px;
+}
+.footer-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 8px; 
+    color: #FFF;
+}
+.footer-links{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: normal;
+    padding: 20px; 
+}
+.footer-links a{
+    text-decoration: none;
+    padding:0px 25px;
+    color: #FFF;
+}
+.footer-icon{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.footer-icon a{
+    padding: 0px 20px;
+    color: #FFF;
+}
+.footer-terms{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: normal;
+    padding: 20px;
+}
+.footer-terms a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: #534C64;
+}
+.footer-rights{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: normal;
+    padding: 20px;
+    color: #534C64;
+}
+
+/* responsive media queries */
+@media screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+}
+    
